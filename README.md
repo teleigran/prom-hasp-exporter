@@ -12,9 +12,9 @@
 `/opt/monitoring/hasp-exporter`
 
 ### Установка как сервис 
-sudo cp hasp-exporter.service /etc/systemd/system/
-systemctl enable hasp-exporter
-systemctl start hasp-exporter
+`sudo cp hasp-exporter.service /etc/systemd/system/`
+`systemctl enable hasp-exporter`
+`systemctl start hasp-exporter`
 
 ## Результат
 http://prometeus-host:8181/metrics
