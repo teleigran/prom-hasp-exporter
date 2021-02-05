@@ -9,7 +9,7 @@
 
 ### Запуск
 `./hasp-exporter` или 
-`/usr/bin/local/hasp-exporter`
+`/opt/monitoring/hasp-exporter`
 
 ### Установка как сервис 
 sudo cp hasp-exporter.service /etc/systemd/system/

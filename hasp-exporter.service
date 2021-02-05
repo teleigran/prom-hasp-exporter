@@ -1,0 +1,13 @@
+[Unit]
+Description=Hasp Licenses Exporter
+
+[Service]
+User=monitor
+Restart=always
+RestartSec=15s
+RuntimeMaxSec=604800
+Environment="HASP_URIS=http://hasp-server.company:1947/_int_/tab_feat.html http://192.168.1.19:1947/_int_/tab_feat.html"
+ExecStart=/opt/monitoring/hasp-exporter --proport 8181
+
+[Install]
+WantedBy=multi-user.target
